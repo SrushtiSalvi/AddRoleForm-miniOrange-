@@ -47,10 +47,10 @@ export default function CapabilitiesTab() {
   const [value, setValue] = useState(0);
 
   useEffect(() => {
-    if (user.inheritFrom !== "Admin") {
-      setValue(1);
-    } else if (user.inheritFrom === "None") {
+    if (user.inheritFrom === "None") {
       setValue(0);
+    } else if (user.inheritFrom !== "Admin") {
+      setValue(1);
     }
   }, []);
 

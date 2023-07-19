@@ -156,7 +156,7 @@ const StepperForm = () => {
     if (isStepSkipped(activeStep)) {
       newSkipped = new Set(newSkipped.values());
       newSkipped.delete(activeStep);
-    } else if (roleName === "" || description === "") {
+    } else if (roleName === "" || description === "" || inheritFrom === "") {
       toast.error("Kindly fill all the required fields first");
       setError(true);
       console.log("fields empty");
@@ -346,10 +346,9 @@ const StepperForm = () => {
                       onChange={(e) => handleSelectChange(e)}
                       displayEmpty
                       inputProps={{ "aria-label": "Without label" }}
+                      defaultValue="None"
                     >
-                      <MenuItem value="None">
-                        <em>None</em>
-                      </MenuItem>
+                      <MenuItem value={"None"}>None</MenuItem>
                       <MenuItem value="Admin">Admin</MenuItem>
                       <MenuItem value="User">End User</MenuItem>
                     </Select>
