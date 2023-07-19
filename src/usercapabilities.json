@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Users ",
+    "description": "Capability Description here lorem ipsum",
+    "id": 0,
+
+    "capabilities": [
+      {
+        "name": "Manage users",
+        "id": 1,
+        "subcategories": [
+          {
+            "id": 1,
+            "name": "Manage social account linking and invitation",
+            "checked": false
+          },
+          {
+            "id": 2,
+            "name": "View users",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "View locked / disabled users",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Allow admin to delete users",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Allow admin to edit users",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Manage shared identity",
+            "checked": false
+          }
+        ],
+        "checked": false,
+        "partiallyChecked": false
+      },
+
+      {
+        "name": "User Security",
+        "id": 2,
+        "subcategories": [
+          { "name": "Update device limit", "checked": false, "id": 1 }
+        ],
+        "checked": false,
+        "partiallyChecked": false
+      }
+    ]
+  },
+  {
+    "name": "Branding / Customization",
+    "description": "Capability Description here lorem ipsum",
+    "id": 1,
+
+    "capabilities": [
+      {
+        "name": "Manage 1",
+        "id": 1,
+        "subcategories": [
+          {
+            "id": 1,
+            "name": "Manage social account linking and invitation",
+            "checked": false
+          },
+          {
+            "id": 2,
+            "name": "View users",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "View locked / disabled users",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Allow admin to delete users",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Allow admin to edit users",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Manage shared identity",
+            "checked": false
+          }
+        ],
+        "checked": false,
+        "partiallyChecked": false
+      },
+
+      {
+        "name": "Security 1",
+        "id": 2,
+        "subcategories": [
+          { "name": "Update device limit", "checked": false, "id": 1 }
+        ],
+        "checked": false,
+        "partiallyChecked": false
+      }
+    ]
+  }
+]
