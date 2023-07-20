@@ -189,6 +189,10 @@ const StepperForm = () => {
 
   const handleReset = () => {
     setActiveStep(0);
+    setRoleName("");
+    setDescription("");
+    setInheritFrom("");
+    dispatch(setUser({}));
   };
 
   const handleSelectChange = (e) => {
